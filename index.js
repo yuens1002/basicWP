@@ -1,2 +1,2 @@
-import data from './test.json'
-console.log(data)
+import { square } from './math.js'
+console.log(square(2))

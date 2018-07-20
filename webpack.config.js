@@ -10,7 +10,7 @@ module.exports = {
   devServer: {
   contentBase: './dist'
   },
-  mode: 'development',
+  mode: 'production',
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
